@@ -1,0 +1,26 @@
+body {
+    background-color: #E19BFF;
+}
+
+.card {
+    width: 50%;
+    position: absolute;
+    top: 30%;
+    left: 25%;
+    padding: 30px;
+}
+
+#author {
+    float: right;
+}
+
+#new-quote {
+    background-color: darkviolet;
+    border: none;
+    float: right;
+}
+
+#btn-twitter {
+    background-color: darkviolet;
+    border: none;
+}
