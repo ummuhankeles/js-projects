@@ -1,0 +1,116 @@
+html {
+    height:100%;
+}
+
+body {
+    font-family: 'Indie Flower', cursive;
+    margin:0;
+}
+
+.bg {
+    animation:slide 3s ease-in-out infinite alternate;
+    background-image: linear-gradient(-60deg, #6c3 50%, #09f 50%);
+    bottom:0;
+    left:-50%;
+    opacity:.5;
+    position:fixed;
+    right:-50%;
+    top:0;
+    z-index:-1;
+}
+
+.bg2 {
+    animation-direction:alternate-reverse;
+    animation-duration:4s;
+}
+
+.bg3 {
+    animation-duration:5s;
+}
+
+@keyframes slide {
+    0% {
+    transform:translateX(-25%);
+    }
+    100% {
+    transform:translateX(25%);
+    }
+}
+
+/* title */
+
+.title h1{
+    font-weight: bold;
+    font-size: 50px;
+    margin-top: 35px;
+    color: #fff;
+}
+
+/* note */
+
+.text-box {
+    margin-top: 25px;
+}
+
+#note-text {
+    font-size: 20px;
+    border-radius: 15px;
+    padding: 10px 20px;
+    width: 100%;
+    letter-spacing: 3px;
+}
+
+.btn-box {
+    margin-top: 25px;
+}
+
+#button-create {
+    width: 100%;
+    font-size: 15px;
+    border-radius: 15px;
+    letter-spacing: 2px;
+}
+
+#button-cancel {
+    width: 100%;
+    font-size: 15px;
+    border-radius: 15px;
+    padding: 5px;
+    letter-spacing: 2px;
+}
+
+.note-box {
+    border: 1px solid #fff;
+    height: 200px;
+    padding: 10px 20px;
+    letter-spacing: 3px;
+    font-size: 20px;
+    border-radius: 15px;
+}
+
+/* list */
+
+.element-list {
+    width: 95%;
+    font-size: 20px;
+    letter-spacing: 3px;
+} 
+
+.element-list-title {
+    color: #fff;
+    margin-left: 30px;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+
+li {
+    list-style: none;
+    border-radius: 10px;
+    margin-top: 5px;
+    background-color: #fff;
+    padding: 5px 20px;
+}
+
+li:hover {
+    background-color: rgb(252, 252, 252);
+}
