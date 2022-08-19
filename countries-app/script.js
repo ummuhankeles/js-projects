@@ -55,8 +55,21 @@ async function FilteredCountry() {
 
 //get detail the country
 async function getDetail(code) {
+    let newCode;
+    if(code >= 0 && code <= 9) {
+        newCode = '00' + code;
+        //console.log(newCode);
+    }
+    else if(code >= 10 && code<=99) {
+        newCode = '0' + code;
+        //console.log(newCode)
+    } 
+    else{
+        newCode = code;
+        //console.log(newCode)
+    }
     searchInput.style.display = "none";
-    let result = await fetch(`https://restcountries.com/v3.1/alpha/${code}`).then(res => res.json());
+    let result = await fetch(`https://restcountries.com/v3.1/alpha/${newCode}`).then(res => res.json());
     console.log(result);
     let items = "";
     result.forEach(item => {
