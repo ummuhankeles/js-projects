@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Calculator</title>
+    <!-- Bootstrap -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx"
+      crossorigin="anonymous"
+    />
+    <!-- Fontawesome -->
+    <link 
+      rel="stylesheet" 
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+    />
+    <!-- CSS -->
+    <link 
+      rel="stylesheet" 
+      href="css/style.css"
+    />
+  </head>
+  <body>
+    <div class="container my-5">
+      <div class="calculator__theme row mb-3">
+        <div class="calculator__theme-btn btn" for="toggle"><i id="icon" class="fa-solid fa-sun fa-xl"></i></div>
+      </div>
+      <div class="calculator__main row">
+        <div class="calculator__main-screen">
+          <div class="calculator__main-screen-process">100+250</div>
+          <div class="calculator__main-screen-result">350</div>
+        </div>
+        <div class="calculator__main-buttons">
+          <div class="first-row row">
+            <div class="btn btn-c">C</div>
+            <div class="btn btn-pos-neg">+/-</div>
+            <div class="btn btn-mode-percent">%</div>
+            <div class="btn btn-divide">/</div>
+          </div>
+          <div class="second-row row">
+            <div class="btn btn-seven">7</div>
+            <div class="btn btn-eight">8</div>
+            <div class="btn btn-nine">9</div>
+            <div class="btn btn-cross">*</div>
+          </div>
+          <div class="third-row row">
+            <div class="btn btn-four">4</div>
+            <div class="btn btn-five">5</div>
+            <div class="btn btn-six">6</div>
+            <div class="btn btn-mines">-</div>
+          </div>
+          <div class="fourth-row row">
+            <div class="btn btn-one">1</div>
+            <div class="btn btn-two">2</div>
+            <div class="btn btn-three">3</div>
+            <div class="btn btn-plus">+</div>
+          </div>
+          <div class="last-row row">
+            <div class="btn btn-history"><i class="fa-solid fa-clock-rotate-left"></i></div>
+            <div class="btn btn-zero">0</div>
+            <div class="btn btn-point">.</div>
+            <div class="btn btn-equal">=</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

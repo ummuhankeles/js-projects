@@ -1,0 +1,147 @@
+:root {
+  --primary-color: #3b3736;
+  --secondary-color: #fff;
+  --third-color: #4F4947;
+  --fourth-color: #2d4b3b;
+  --fifth-color: #b0b0b4;
+  --sixth-color: #212529;
+  --seventh-color: #4396f9; }
+
+.light-theme {
+  --primary-color: #fff;
+  --secondary-color: #000;
+  --third-color: #b0b0b4;
+  --fourth-color: #4396f9;
+  --fifth-color: #4F4947;
+  --sixth-color: #b0b0b4;
+  --seventh-color: #4396f9; }
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: var(--primary-color); }
+
+.calculator__theme {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center; }
+  .calculator__theme .calculator__theme-btn {
+    border: none;
+    width: 10%;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px 0px #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 25px; }
+    .calculator__theme .calculator__theme-btn i {
+      color: var(--secondary-color); }
+    .calculator__theme .calculator__theme-btn:hover {
+      background-color: var(--third-color); }
+
+.calculator__main {
+  width: 25%;
+  height: 100%;
+  margin: auto;
+  border-radius: 15px;
+  box-shadow: 0px 0px 5px 0px #000; }
+  .calculator__main .calculator__main-screen {
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: end; }
+    .calculator__main .calculator__main-screen div {
+      display: flex;
+      justify-content: flex-end; }
+    .calculator__main .calculator__main-screen .calculator__main-screen-process {
+      color: var(--fourth-color);
+      font-weight: bold; }
+    .calculator__main .calculator__main-screen .calculator__main-screen-result {
+      color: var(--secondary-color);
+      font-size: 24px;
+      font-weight: bold; }
+
+.calculator__main-buttons {
+  margin: auto; }
+
+.first-row div {
+  width: 25%;
+  color: var(--fifth-color);
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  border: none;
+  padding: 15px; }
+  .first-row div:hover {
+    color: var(--secondary-color);
+    background-color: var(--sixth-color); }
+
+.second-row div {
+  width: 25%;
+  color: var(--secondary-color);
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  border: none;
+  padding: 15px; }
+  .second-row div:hover {
+    color: var(--secondary-color);
+    background-color: var(--sixth-color); }
+.second-row .btn-cross {
+  color: var(--fifth-color); }
+
+.third-row div {
+  width: 25%;
+  color: var(--secondary-color);
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  border: none;
+  padding: 15px; }
+  .third-row div:hover {
+    color: var(--secondary-color);
+    background-color: var(--sixth-color); }
+.third-row .btn-mines {
+  color: var(--fifth-color); }
+
+.fourth-row div {
+  width: 25%;
+  color: var(--secondary-color);
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  border: none;
+  padding: 15px; }
+  .fourth-row div:hover {
+    color: var(--secondary-color);
+    background-color: var(--sixth-color); }
+.fourth-row .btn-plus {
+  color: var(--fifth-color); }
+
+.last-row div {
+  width: 25%;
+  color: var(--secondary-color);
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  border: none;
+  padding: 15px; }
+  .last-row div:hover {
+    color: var(--secondary-color);
+    background-color: var(--sixth-color); }
+.last-row .btn-equal {
+  color: var(--seventh-color); }
+
+/*# sourceMappingURL=style.css.map */
