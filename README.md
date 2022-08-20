@@ -1,5 +1,6 @@
 ## HTML, CSS &amp; Javascript Projects
 
+* [New Calculator](https://ummuhankeles.github.io/js-projects/new-calculator/)
 * [Color Flipper](https://ummuhankeles.github.io/js-projects/color-flipper/)
 * [Quote Generator](https://ummuhankeles.github.io/js-projects/quote-generator/)
 * [Calculator](https://ummuhankeles.github.io/js-projects/calculator/)
